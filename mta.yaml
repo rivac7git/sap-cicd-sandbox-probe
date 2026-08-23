@@ -11,4 +11,4 @@ modules:
       memory: 128M
       disk-quota: 256M
     build-parameters:
-      builder: npm-ci
+      builder: npm
