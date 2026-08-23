@@ -1,0 +1,14 @@
+_schema-version: "3.1"
+ID: sap-cicd-probe
+version: 1.0.0
+description: Minimal MTA project for SAP CI/CD Cloud Foundry pipeline sandbox recon (authorized bug bounty testing, Bugcrowd sap-og24)
+modules:
+  - name: probe-module
+    type: nodejs
+    path: probe-module
+    parameters:
+      buildpack: nodejs_buildpack
+      memory: 128M
+      disk-quota: 256M
+    build-parameters:
+      builder: npm-ci

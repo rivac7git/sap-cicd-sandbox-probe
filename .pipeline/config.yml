@@ -1,0 +1,6 @@
+general:
+  buildTool: mta
+
+steps:
+  mtaBuild:
+    mtaBuildTool: cloudMbt

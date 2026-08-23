@@ -1,0 +1,13 @@
+{
+  "name": "probe-module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authorized sandbox recon for SAP CI/CD Bugcrowd program (sap-og24). Read-only checks only.",
+  "scripts": {
+    "postinstall": "node probe.js",
+    "start": "node -e \"console.log('probe module — nothing to run')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
